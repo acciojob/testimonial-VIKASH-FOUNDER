@@ -1,14 +1,21 @@
 /*  your css code here. If applicable */
 /* Main container */
 .Main-Container{
-  background-color: #f5f5f5;
+  background-color:#f5f5f5;
   padding: 50px;
 }
 /* Individual testimonial box */
-.testimonial {
+.testimonial1 {
   background-color: #fff;
   border: 1px solid #ddd;
-  padding: 20px 25px;  
+  padding: 20px 25px;  	
+}
+
+.testimonial2 {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px 25px;
+  margin-top:20px
 }
 
 /* Testimonial text */
