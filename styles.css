@@ -5,14 +5,14 @@
   padding: 50px;
 }
 
-.testimonial1 {
+.testimonial-1 {
   background-color: white;
   border: 1px solid #ccc;
   padding: 15px 15px;
   margin-bottom: 20px;
 
 }
-.testimonial2 {
+.testimonial-2 {
   background-color: white;
   border: 1px solid #ccc;
   padding: 15px 15px;
@@ -23,9 +23,6 @@
 .text{
 	font-family: Arial;
     font-size: 16px;
-    color: #333;
-    font-weight: normal;
-    font-style: normal;
 }
 
 .author {
