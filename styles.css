@@ -1,28 +1,19 @@
 /*  your css code here. If applicable */
 
-.Main-Container {
+.Main_Container {
   background-color: #f5f5f5;
-  padding: 50px;
+	padding:20px;
 }
 
-.testimonial-1 {
+.testimonial {
   background-color: white;
   border: 1px solid #ccc;
-  padding: 15px 15px;
-  margin-bottom: 20px;
-
-}
-.testimonial-2 {
-  background-color: white;
-  border: 1px solid #ccc;
-  padding: 15px 15px;
-	
-
+  padding: 5px;
+  margin:15px;
 }
 
 .text{
 	font-family: Arial;
-    font-size: 16px;
 }
 
 .author {
