@@ -1,22 +1,62 @@
-/*  your css code here. If applicable */
+/* Document reset for clean spacing */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #ffffff;
+        }
 
-.Main_Container {
-  background-color: #f5f5f5;
-	padding:20px;
-}
+        /* 1. Main Container
+           - Holds all the testimonials.
+           - Uses the requested #f5f5f5 background color.
+           - Includes padding to space out the content internally.
+        */
+        .testimonial-container {
+            background-color: #f5f5f5;
+            padding: 40px;
+            max-width: 800px;
+            margin: 0 auto; /* Centers the container on the screen */
+        }
 
-.testimonial {
-  background-color: white;
-  border: 1px solid #ccc;
-  padding: 5px;
-  margin:15px;
-}
+        /* Section Title Styling */
+        .testimonial-container h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 25px;
+            color: #000000;
+        }
 
-.text{
-	font-family: Arial;
-}
+        /* 2. Testimonial Box
+           - Styled as an individual white card box for each quote.
+           - Uses borders and internal padding as required.
+           - Includes a bottom margin to separate multiple testimonial boxes.
+        */
+        .testimonial-box {
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+            padding: 20px 25px;
+            margin-bottom: 20px;
+        }
 
-.author {
-  text-align: right;
-  font-style: italic;
-}
+        /* 3. Testimonial Text
+           - Standard styling for the actual quote text.
+        */
+        .testimonial-text {
+            font-size: 15px;
+            line-height: 1.5;
+            color: #000000;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        /* 4. Author Name
+           - Aligns the text to the right side of the card.
+           - Sets the font style to italic as requested in the properties table.
+        */
+        .testimonial-author {
+            text-align: right;
+            font-style: italic;
+            font-size: 14px;
+            color: #000000;
+            margin: 0;
+        }
